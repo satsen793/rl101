@@ -1,0 +1,53 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Test file imports",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"-c",
+				"from agent import AdaptiveTutorAgent; from data_module import AdaptiveTutorDataModule; from deployment_callback import HumanInLoopDeploymentCallback; from rollout_logger import AdaptiveTutorDataModule as RolloutLoggerDataModule; print('Imports successful')"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "test"
+		},
+		{
+			"label": "Test file imports",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"-c",
+				"from agent import AdaptiveTutorAgent; from data_module import AdaptiveTutorDataModule; from deployment_callback import HumanInLoopDeploymentCallback; from rollout_logger import AdaptiveTutorDataModule as RolloutLoggerDataModule; print('Imports successful')"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "test"
+		},
+		{
+			"label": "Test file imports",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"-c",
+				"from agent import AdaptiveTutorAgent; from data_module import AdaptiveTutorDataModule; from deployment_callback import HumanInLoopDeploymentCallback; from rollout_logger import AdaptiveTutorDataModule as RolloutLoggerDataModule; print(\"Imports successful\")"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "test"
+		},
+		{
+			"label": "Test file imports",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"-c",
+				"from agent import AdaptiveTutorAgent; from data_module import AdaptiveTutorDataModule; from deployment_callback import HumanInLoopDeploymentCallback; from rollout_logger import AdaptiveTutorDataModule as RolloutLoggerDataModule; print('Imports successful')"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "test"
+		}
+	]
+}
